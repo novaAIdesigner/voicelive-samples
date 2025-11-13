@@ -33,6 +33,20 @@ Demonstrates direct integration with VoiceLive using bring-your-own-models from 
 - Custom Instructions: Define your own system instructions for the AI
 - Flexible Authentication: Supports both API key and Azure credential authentication
 
+### [Customer Service Bot](./CustomerServiceBot/)
+Demonstrates sophisticated customer service capabilities using VoiceLive with function calling. The bot handles complex customer inquiries with natural voice conversations.
+
+**Key Features:**
+- Proactive Greeting: Agent initiates the conversation with a welcome message
+- Strongly-typed function calling with SDK's FunctionTool
+- Order status checking and shipment tracking
+- Customer account information retrieval
+- Support call scheduling
+- Returns and exchange processing
+- Shipping address updates
+- Professional customer-facing voice interactions
+- Robust error handling and graceful degradation
+
 ## Prerequisites
 
 All samples require:
@@ -129,6 +143,19 @@ Each sample includes an `appsettings.json` file for configuration:
 }
 ```
 
+### Customer Service Bot Configuration
+```json
+{
+  "VoiceLive": {
+    "ApiKey": "your-voicelive-api-key",
+    "Endpoint": "https://your-endpoint.services.ai.azure.com/",
+    "Model": "gpt-realtime",
+    "Voice": "en-US-Ava:DragonHDLatestNeural",
+    "Instructions": "You are a professional customer service representative for TechCorp. You have access to customer databases and order systems. Always be polite, helpful, and efficient."
+  }
+}
+```
+
 ## Common Features
 
 All samples demonstrate:
@@ -145,7 +172,7 @@ Popular neural voice options include:
 
 - `en-US-AvaNeural` - Female, conversational
 - `en-US-AndrewNeural` - Male, conversational
-- `en-US-JennyNeural` - Female, friendly
+- `en-US-Ava:DragonHDLatestNeural` - Female, friendly
 - `en-US-GuyNeural` - Male, professional
 - `en-US-AriaNeural` - Female, cheerful
 - `en-US-DavisNeural` - Male, calm
@@ -163,7 +190,7 @@ User Hears ← Speakers ← AudioProcessor ← VoiceLive SDK ← Agent Response
 
 ### Bring-Your-Own-/Model Quickstart Flow
 ```
-User Voice → Microphone → AudioProcessor → VoiceLive SDK → Azure AI Model (GPT-4o/BYOM)
+User Voice → Microphone → AudioProcessor → VoiceLive SDK → Azure AI Model (gpt-realtime/BYOM)
                                                                       ↓
 User Hears ← Speakers ← AudioProcessor ← VoiceLive SDK ← Model Response
 ```

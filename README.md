@@ -48,15 +48,16 @@ This repository contains samples in multiple programming languages. Choose your 
 Complete C# samples demonstrating:
 - **Agent Quickstart**: Connect to Azure AI Foundry agents with proactive greetings
 - **Model Quickstart**: Direct VoiceLive model integration
-- **Bring-Your-Own-Model (BYOM) Quickstart**: Use your own models hosted in Foundry
-- Built with .NET 8.0 and self-contained code
+- **Bring-Your-Own-Model (BYOM) Quickstart**: Use your own models hosted in Foundry with proactive greetings
+- **Customer Service Bot**: Advanced function calling for customer service scenarios and proactive greetings
+- Built with .NET 9.0 and self-contained code
 
 ### [Python Samples](./python/)
 Python samples showcasing:
-- **Agent Quickstart**: Azure AI Foundry agent integration
+- **Agent Quickstart**: Azure AI Foundry agent integration with proactive greetings
 - **Model Quickstart**: Direct model access with flexible authentication
-- **Bring-Your-Own-Model (BYOM) Quickstart**: Use your own models hosted in Foundry
-- **Function Calling**: Advanced tool integration with custom functions
+- **Bring-Your-Own-Model (BYOM) Quickstart**: Use your own models hosted in Foundry with proactive greetings
+- **Function Calling**: Advanced tool integration with custom functions and proactive greetings
 - Built with Python 3.8+ and async/await patterns
 
 ### [JavaScript Samples](./javascript/)
@@ -65,6 +66,7 @@ JavaScript/TypeScript samples (coming soon)
 ### [Java Samples](./java/)
 Java samples  showcasing:
 - **Model Quickstart**: Direct model access with flexible authentication
+- Built with Java 11+ and Maven
 
 Each language folder contains detailed setup instructions, configuration examples, and troubleshooting guides specific to that language and platform.
 
