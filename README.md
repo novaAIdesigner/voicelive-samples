@@ -61,7 +61,10 @@ Python samples showcasing:
 - Built with Python 3.8+ and async/await patterns
 
 ### [JavaScript Samples](./javascript/)
-JavaScript/TypeScript samples (coming soon)
+JavaScript/TypeScript samples showcasing:
+- **Basic Web Voice Assistant**: Browser-based voice assistant with real-time streaming and barge-in support
+- **Voice Live Avatar**: Avatar-enabled voice conversations with Docker deployment
+- Built with TypeScript and Web Audio API
 
 ### [Java Samples](./java/)
 Java samples  showcasing:

@@ -26,6 +26,8 @@ A Dockerized sample demonstrating Azure Voice Live API with avatar integration, 
 - Avatar-enabled voice conversations
 - Prebuilt and custom avatar character support
 - Photo avatar option
+- Proactive greeting support
+- Barge-in support for natural conversation interruption
 - Docker-based deployment
 - Azure Container Apps deployment guide
 - Developer mode for debugging
