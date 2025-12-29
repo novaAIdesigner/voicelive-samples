@@ -2,6 +2,8 @@
 
 This is a Javascript (React + Vite) demo for the Azure Voice Live (Realtime API) in a Car Assistant scenario.
 
+**Live Demo:** [https://novaaidesigner.github.io/azure-voice-live-for-car/](https://novaaidesigner.github.io/azure-voice-live-for-car/)
+
 ## Demo Description
 
 This demo showcases a **Voice-Enabled Car Assistant** powered by Azure OpenAI Realtime API. It simulates a realistic Electric Vehicle (EV) environment where the user can interact with the car using natural voice commands.
@@ -39,9 +41,9 @@ This demo showcases a **Voice-Enabled Car Assistant** powered by Azure OpenAI Re
 
 ## Configuration
 
-To use the demo, you need an Azure OpenAI resource with the Realtime API enabled (e.g., `gpt-4o-realtime-preview`).
+To use the demo, you need an Azure Foundry resource with OpenAI models.
 
-1.  Enter your **Endpoint** (e.g., `wss://<resource>.openai.azure.com/openai/realtime...`).
+1.  Enter your **Endpoint** (e.g., `https://<resource>.cognitiveservices.azure.com/`).
 2.  Enter your **API Key**.
 3.  Click **Connect**.
 
